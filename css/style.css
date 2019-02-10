@@ -175,15 +175,11 @@ img {
 
 footer {
     padding: 20px 30px;
-    /*to be reviewed once operational*/
-    /*background-color: #a62828;*/
-    /*background-image: url(../images/spices-73770_1920.jpg);*/
 }
 
 body {
     margin-left: auto;
     margin-right: auto;
-    /*background-image: url(../images/round_greyop50.svg);*/
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -398,15 +394,6 @@ div ul li {
     font-style: italic;
 }
 
-.fb-like {
-    float: right;
-}
-
-.fb-page {
-    width: 90%;
-    height: 90%;
-}
-
 .col {
     width: 100%;
 }
@@ -429,14 +416,9 @@ div ul li {
     visibility: hidden;
 }
 
-.info-box-clear img,
-address img {
+.info-box-clear img {
     width: 30%;
     padding: 7px 7px 14px 0;
-    /*Code comes fro thirded pages - see contact page
-	height: 30%;
-	float: left;
-	margin-right: 14px;*/
 }
 
 .message {
@@ -557,9 +539,6 @@ li.secondchild:nth-child(odd) {
 
 .imagepulse {
     margin: 3em;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
     width: 50%;
     height: 50%;
     background: #ffffff;
@@ -632,6 +611,274 @@ li.secondchild:nth-child(odd) {
     background-color: #ffffff;
 }
 
+/*Parralax page*/
+/*@import url('https://fonts.googleapis.com/css?family=Wellfleet');
+/*font-family: 'Wellfleet', cursive;*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Arvo');
+/*font-family: 'Arvo', serif;*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*font-family: 'Oswald', sans-serif;*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911');
+/*font-family: 'Goudy Bookletter 1911', serif;*/
+
+
+.parra_body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.content h1 {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.content h2 {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.content h3 {
+    font-family: Oswald;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    /*color: #fff;*/
+    margin: 5px 0;
+    padding: 0;
+    z-index: 1;
+    position: relative
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    width: 100%;
+    background: url('../images/header-bg.png');
+    height: 80px;
+    position: fixed;
+    margin-top: 30px;
+}
+
+#nav {
+    width: 410px;
+    float: right;
+    margin-top: 20px;
+}
+
+#logo a {
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: "Arvo";
+    font-weight: bold;
+
+
+    padding-left: 21px;
+}
+
+#nav ul {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+}
+
+#nav li {
+    margin-top: 9px;
+    float: left;
+    padding-left: 21px;
+}
+
+#nav li a {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Oswald';
+}
+
+#nav li a.active {
+    color: #fff;
+    opacity: 1;
+    border-bottom: 2px solid #fff;
+}
+
+#nav li a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.quotes_container h3 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: left;
+    margin: 50px auto;
+}
+
+.author_name_white {
+    font-family: "Wellfleet";
+    margin: 70px 0 0 75px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.author_name_gray {
+    font-family: "Wellfleet";
+    margin: 70px 0 0 75px;
+    color: #94a4a4;
+    font-size: 20px;
+}
+
+.quotes_container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#triqueta {
+    background: url('../images/triquetra.png') no-repeat;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -35px;
+}
+
+#divider {
+    background: url('../images/divider.png') no-repeat;
+    width: 300px;
+    height: 35px;
+    margin: 0px auto 27px auto;
+}
+
+#ribbon {
+    background: url('../images/ribbon.png') no-repeat;
+    width: 251px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: -38px;
+}
+
+#triskele1 {
+    background: url('../images/triskele.png') no-repeat;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: -60px;
+    left: -102px;
+}
+
+#triskele2 {
+    background: url('../images/triskele.png') no-repeat;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: -36px;
+    right: -100px;
+}
+
+#slide1,
+#slide2 {
+    width: 100%;
+}
+
+#slide1, #slide2, #slide3, #slide4, #slide5 {
+    box-sizing: content-box;
+}
+
+#slide1 {
+    background: url('../images/fairy_pool_x.jpg') 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+
+#slide2 {
+    background-color: #fff;
+    color: #333333 !important;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 0;
+}
+
+#slide3 {
+    background: url('../images/neist_point_x.jpg') 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+#slide4 {
+    background-color: #fff;
+    color: #333333;
+    height: 300px;
+    padding: 200px 0;
+}
+
+#slide5 {
+    background: url('../images/old_man_storr_x.jpg') 50% 0 no-repeat fixed;
+    height: 200px;
+    margin: 0 auto;
+    padding: 250px 0;
+    color: #fff;
+    background-size: cover;
+}
+
+#copyright {
+    color: #fff;
+    font-family: "Wellfleet";
+    font-size: 14px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#copyright a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.quotes_container img {
+    margin: 0;
+    padding: 0;
+    height: 64px;
+    width: 64px;
+}
+
 
 /*Tablet View*/
 
@@ -650,7 +897,6 @@ li.secondchild:nth-child(odd) {
 
     h1 {
         font-size: 3.0em;
-        /*margin-bottom: 14px;*/
     }
 
     h2 {
@@ -742,7 +988,6 @@ li.secondchild:nth-child(odd) {
 }
 
 .burger {
-    /* make it look decent enough */
     background: #ffffff;
     color: #cdcdcd;
     font-family: "Avenir Next", "Avenir", sans-serif;
@@ -784,11 +1029,6 @@ li.secondchild:nth-child(odd) {
     -webkit-touch-callout: none;
 }
 
-
-/*
- * Just a quick hamburger
- */
-
 #menuToggle span {
     display: inline-block;
     width: 50px;
@@ -815,7 +1055,6 @@ li.secondchild:nth-child(odd) {
  * Transform all the slices of hamburger
  * into a crossmark.
  */
-
 #menuToggle input:checked~span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
@@ -824,9 +1063,8 @@ li.secondchild:nth-child(odd) {
 
 
 /*
- * But let's hide the middle one.
+ *  Hide the middle one.
  */
-
 #menuToggle input:checked~span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
@@ -834,7 +1072,7 @@ li.secondchild:nth-child(odd) {
 
 
 /*
- * Ohyeah and the last one should go the other direction
+ * last one should go the other direction
  */
 
 #menuToggle input:checked~span:nth-last-child(2) {
@@ -858,7 +1096,6 @@ li.secondchild:nth-child(odd) {
     background: #ffffff;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
@@ -874,79 +1111,11 @@ label {
 
 
 /*
- * And let's slide it in from the left
+ * slide it in from the left
  */
 
 #menuToggle input:checked~ul {
     transform: none;
-}
-
-/*Robbozinoz duplicate menu*/
-/*Burger menu start*/
-.burger {
-    color: #cdcdcd;
-    height: 0;
-    width: 0;
-}
-
-
-.burgerLink {
-    text-decoration: none;
-    color: #232323;
-    transition: color 0.3s ease;
-}
-
-.burgerLink:hover {
-    color: #4c61a5;
-    display: block;
-    text-transform: uppercase;
-    font-size: 1.2em;
-}
-
-#menuToggle {
-    display: block;
-    position: relative;
-    top: 28px;
-    /*right: 50px;*/
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
-
-}
-
-#menuToggle span:first-child {
-    transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2) {
-    transform-origin: 0% 100%;
-}
-
-
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked~span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #cdcdcd;
-}
-
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked~span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
- * Ohyeah and the last one should go the other direction
- */
-
-#menuToggle input:checked~span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
 }
 
 #menu a li {
