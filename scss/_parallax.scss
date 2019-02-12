@@ -1,0 +1,268 @@
+/*Parralax page*/
+@import "config";
+
+/*css has been incorporated into the existing css for the responsive grid design - Libran Kitchen work*/
+@include mediaSm {
+
+}.parra_body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.content {
+    margin: 0 auto;
+
+    h1 {
+        font-family: "Arvo";
+        font-weight: normal;
+        font-size: 3em;
+        text-align: center;
+        color: #fff;
+        margin: auto;
+        padding: auto;
+    }
+
+    h2 {
+        font-family: "Arvo";
+        font-weight: normal;
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+        font-family: Oswald;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: center;
+        /*color: #fff;*/
+        margin: 5px 0;
+        padding: 0;
+        z-index: 1;
+        position: relative
+    }
+    
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    width: 100%;
+    background: url('../images/header-bg.png');
+    height: 10vh;
+    position: fixed;
+    opacity: 0.9;
+}
+
+#nav {
+    width: 50vh;
+    opacity: 0.85;
+    float: right;
+    margin-top: 20px;
+
+    ul {
+        list-style: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    li {
+        margin-top: 9px;
+        float: left;
+        padding-left: 21px;
+
+        a {
+            color: #fff;
+            opacity: 0.6;
+            font-size: 16px;
+            text-decoration: none;
+            font-family: 'Oswald';
+
+            /*Uase js and this code to underline which slide is in the viewport*/
+            &.active {
+                color: #fff;
+                opacity: 1;
+                border-bottom: 2px solid #fff;
+            }
+
+            /*Make the active slide*/
+            &:hover {
+                color: #fff;
+                opacity: 1;
+        }
+    }
+}
+}
+
+#logo a {
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: "Arvo";
+    font-weight: bold;
+    padding-left: 21px;
+}
+
+.author_name_white {
+    font-family: "Wellfleet";
+    margin: 70px 0 0 75px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.author_name_gray {
+    font-family: "Wellfleet";
+    margin: 70px 0 0 75px;
+    color: #94a4a4;
+    font-size: 20px;
+}
+
+.quotes_container {
+    width: 100%;
+    margin: 0 auto;
+
+    h3 {
+        font-family: 'Goudy Bookletter 1911', serif;
+        font-weight: normal;
+        font-size: 30px;
+        /*text-align: left;*/
+        margin: 50px 2vh;
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+        height: 64px;
+        width: 64px;
+    }
+    
+}
+
+#triqueta {
+    background: url('../images/triquetra.png') no-repeat;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -35px;
+}
+
+#divider {
+    background: url('../images/divider.png') no-repeat;
+    width: 300px;
+    height: 35px;
+    margin: 0px auto 27px auto;
+}
+
+#ribbon {
+    background: url('../images/ribbon.png') no-repeat;
+    width: 251px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: -38px;
+}
+
+#triskele1 {
+    background: url('../images/triskele.png') no-repeat;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: -60px;
+    left: -102px;
+}
+
+#triskele2 {
+    background: url('../images/triskele.png') no-repeat;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: -36px;
+    right: -100px;
+}
+
+#slide1,
+#slide2 {
+    width: 100%;
+}
+
+#slide1, #slide2, #slide3, #slide4, #slide5 {
+    box-sizing: content-box;
+}
+
+#slide1 {
+    background: url('../images/skye_beach.png') 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+
+#slide2 {
+    background-color: #fff;
+    color: #333333 !important;
+    height: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 0;
+}
+
+#slide3 {
+    background: url('../images/neist_point_x.jpg') 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+#slide4 {
+    background-color: #fff;
+    color: #333333;
+    height: 320px;
+    padding: 200px 0;
+}
+
+#slide5 {
+    background: url('../images/old_man_storr_x.jpg') 50% 0 no-repeat fixed;
+    height: 200px;
+    margin: 0 auto;
+    padding: 250px 0;
+    color: #fff;
+    background-size: cover;
+}
+
+#copyright {
+    color: #fff;
+    font-family: "Wellfleet";
+    font-size: 14px;
+    margin-top: 100px;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    }  
+
+    @include mediaMd {
+        #nav {
+            width: 90vh;
+        }
+    }
